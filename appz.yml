@@ -38,5 +38,5 @@ properties:
     GF_AUTH_GENERIC_OAUTH_API_URL: https://appz.loki.0391297b.lowtouch.cloud/openid/userinfo 
     GF_AUTH_GENERIC_OAUTH_NAME_ATTRIBUTE_PATH: anyname
     GF_AUTH_GENERIC_OAUTH_ROLE_ATTRIBUTE_PATH: contains(roles[*], 'admin') && 'Admin' || 'Viewer'
-    GF_SERVER_ROOT_URL: https://akshaidevopscc-dev-grafana-7-0.loki.0391297b.lowtouch.cloud
+    GF_SERVER_ROOT_URL: https://akshaidevopscc-dev-grafana-7-0.loki.0391297b.lowtouch.cloud/
     revision: 61
